@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practica final</title>
+<link rel='icon' href="../Imágenes/grabacion-de-voz.png" type='image/x-icon' >
+<link href="../Hoja de estilos/CSS-4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="main-container">
+	  <header>
+		  <h1>Laura Bailey</h1>
+		  <h3>Actriz de doblaje</h3>
+	<nav>
+	<div class="menu">
+					<ul>
+						<li><a href="../index.html">Inicio</a></li>
+						<li><a href="HTM2.html">Voces</a></li>
+						<li><a href="HTM3.html">Critical Rol</a></li>
+						<li><a href="HTM4.html">Contacto</a></li>
+					</ul>
+				</div>
+	</nav>
+			</header>
+		
+		<main>
+			
+		<section class="contact-form">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <form action="#" method="POST">
+                <label for="name">Nombre Completo (obligatorio):</label>
+                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+				<br>
+
+                <label for="email">Correo Electrónico (obligatorio):</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" maxlength="9" placeholder="Escribe tu número de teléfono">
+				<br>
+
+                <label for="event-type">Tipo de Consulta:</label>
+                <select id="event-type" name="event-type">
+                    <option value="doblaje">Doblaje</option>
+                    <option value="evento">Evento</option>
+                    <option value="otros">Otro</option>
+                </select>
+
+                <fieldset>
+                    <legend>¿Cómo quieres que se te contacte?</legend>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                    <label for="contact-email">Correo Electrónico</label>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                    <label for="contact-phone">Teléfono</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Servicios adicionales:</legend>
+                    <input type="checkbox" id="audio-samples" name="services" value="audio-samples">
+                    <label for="audio-samples">Solicitar muestras de audio</label>
+                    <input type="checkbox" id="in-person" name="services" value="in-person">
+                    <label for="in-person">Reunión presencial</label>
+                </fieldset>
+
+                <label for="message">Mensaje (obligatorio):</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+		<h2>MAPA</h2>
+        <section class="map">
+            
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.279593804121!2d-118.35865969999999!3d34.0623463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b935c8d13b19%3A0x6ffccd36d3ca13f0!2s5900%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090036%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1733759072994!5m2!1ses!2ses" 
+                width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+				<h3>¡Sigue a Laura en <br><a href="https://twitter.com/laurabaileyvo" >Twitter </a>e <a href="https://www.instagram.com/laurabaileyvo/?hl=es" >Instagram</a> <br>para ver sus últimas noticias y contactar con ella directamente!</h3> 
+        </section>
+			
+
+				
+
+			
+			
+			
+		
+			<p id="parrafo">Para consultas más profesionales, comuníquese con SBV <br>
+									www.sbvtalent.com <br>
+										323.938.6000 
+				
+                <img src="../Imágenes/e83895_b7dbac3f9514dd12f95c8da43e4fac2b.webp" width="60" height="30" alt=""/> </p>
+		
+		</main>
+		
+		<footer>
+			
+		  Laura Bailey © 2024
+		
+		</footer>
+		
+	</div>
+	
+	
+</body>
+	
+</html>

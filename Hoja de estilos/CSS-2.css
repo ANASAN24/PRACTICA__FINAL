@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Mifuente;
+	src: url('../Fuentes/Recoleta-RegularDEMO.otf');
+  }
+
+body {background-color:#E8A199;
+	background: 
+	linear-gradient(rgba(232, 161, 153, 0.9), rgba(232, 161, 153, 0.9)),
+	url('../Imágenes/istockphoto-1176356229-612x612_waifu2x_photo_noise1_scale.png');
+background-size: cover;}
+
+#main-container {
+	width: 1150px;
+	height: 600px;
+	margin: auto;
+	background-color: lightpink;
+	
+}
+header {
+	background-image: url("../Imágenes/Sin-título-1.jpg");
+	
+	width: 350px;
+	height: 600px;
+	border: dotted 
+	
+	
+}
+
+h1 {text-align: center;
+border-bottom: dotted 3px;
+padding: 5px 0px;
+	margin: 70px 50px;
+color:aliceblue;}
+
+
+header h3 {
+text-align: center;
+margin-top:-60px;
+color: aliceblue;
+text-shadow: 10px 10px 10px #000000, 0 0 5px #1e1e1e;
+}
+
+.menu {
+	width: 250px;
+	height: 250px;
+	margin-top: 200px;
+	margin-left: 80px;
+	
+}
+
+nav ul li {
+	list-style: none;
+	width: 100px;
+	height: 30px;
+	background-color:rgba(255,105,180,0.50);
+	border:dotted white 2px;
+	margin: 5px 0;
+	text-align: center;
+	padding-top:10px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	border-radius: 10%;
+	}
+
+nav ul li:hover {background-color:lightpink;}
+
+main {
+	float: right;
+	height: 600px;
+	margin-top: -600px;
+	width: 750px;
+	
+}
+
+h2{
+	font-family: Mifuente;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+#fotos {
+	text-align: center;
+	padding: 20px 10px;
+	margin: 10px 3px;
+	gap: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+main::after { 
+ content: ""; 
+ display: block; 
+ clear: both;
+}
+
+footer {
+	margin-top: -4px;
+	text-align: center;
+	width: 1150px;
+	background-color:white;
+	padding: 10px 0px;} 
+	
+	audio {width: 700px;}
+	
+	audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: rgba(248,217,222,1.0);
+  color: rgba(232,161,153,0.50);
+}
+
+#enlace {
+	margin-top: 40px;
+}
+
+main a {
+	color: black;
+	text-decoration:none;}
+
+main a:hover {color: aliceblue;}
+
+main a:active {color: rgb(159, 110, 126);}
+
+main a:visited {
+	color: rgb(128, 24, 22);
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 95%;
+  }
+
+  thead{
+	background-color: rgba(255, 105, 180, 0.186);;
+  }
+  
+  td, th {
+	border: 2px solid #222222;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f6f6f6;
+  }
